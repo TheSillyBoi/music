@@ -1,9 +1,11 @@
 body{
     background-color: aqua;
+    background: radial-gradient(aqua, #90ffff);
     text-align: left;
 }
 
 header{
+    text-align: center;
     font-family: playfair-display;
     font-size: 3rem;
     font-weight: 900;
@@ -11,11 +13,48 @@ header{
 }
 
 summary{
+    margin: 0.25rem;
     font-size: 1.5rem;
     font-family: Roboto Mono;
     font-weight: normal;
 
 
+}
+
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+audio{
+    color: black;
+    background-color: 95ffff;
+    border-radius: 3rem;
+
+}
+
+details{
+    justify-content: center;
+    text-align: center;
+}
+
+details[open] audio{
+    animation: animateDown 0.5s linear forwards;
+
+}
+
+@keyframes animateDown {
+  0% {
+    opacity: 0;
+    transform: translatey(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
 }
 
 .credits{
