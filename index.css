@@ -10,13 +10,15 @@ header{
 
 }
 
-p{
-
+summary{
+    font-size: 1.5rem;
+    font-family: Roboto Mono;
+    font-weight: normal;
 
 
 }
 
-details{
+.credits{
     font-size: large;
     position: fixed;
     left: 0;
