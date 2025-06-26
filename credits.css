@@ -1,5 +1,5 @@
 body{
-    background-color: cadetblue;
+    background-color: cyan;
 }
 
 h2{
@@ -26,4 +26,19 @@ a{
     color: black;;
     background-color: darkcyan;
     border-radius: 0.5rem;
+}
+.unnamed{
+    display: flex;
+    font-size: 1rem;
+    position: fixed;
+    border-right: 0;
+    right: 0;
+    bottom:0;
+    margin: 0.125rem;
+    padding: 0.25rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+    background-color: darkcyan;
+    border-radius: 0.5rem;
+
 }
