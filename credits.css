@@ -1,0 +1,29 @@
+body{
+    background-color: cadetblue;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+a{
+    color:black;
+    text-decoration:underline;
+}
+
+.footer{
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    margin: 0.125rem;
+    padding: 0.25rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+    color: black;;
+    background-color: darkcyan;
+    border-radius: 0.5rem;
+}
