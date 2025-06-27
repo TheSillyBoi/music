@@ -20,7 +20,7 @@ header{
 
 .summaries{
     margin: 0.25rem;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-family: Roboto Mono;
     font-weight: normal;
 
@@ -88,6 +88,12 @@ details[open] audio{
 
 }
 
+@media screen and (orientation: portrait){
+  .summaries{
+    font-size: 4rem;
+  }
+}
+
 .unnamed{
   /* display: inline-block; */
     /* float:inline-end; */
@@ -113,7 +119,7 @@ a{
     height:5rem;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 139, 139, 0.3); /* Semi-transparent darkcyan */
+    background-color: #ef9f76; /* Semi-transparent darkcyan */
     padding: 1rem 2rem;
     margin-bottom: 2rem;
     border-radius: 1rem;

@@ -54,7 +54,7 @@ h3{
     height: 5rem;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 139, 139, 0.3); /* Semi-transparent darkcyan */
+    background-color: #ef9f76; /* Semi-transparent darkcyan */
     padding: 0.5rem 0.5rem;
     border-radius: 1rem;
     box-shadow: 00 10px 6px rgba(0, 0, 0, 0.1);

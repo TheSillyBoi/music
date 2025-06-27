@@ -28,7 +28,7 @@ p{
 
 .summaries{
     margin: 0.25rem;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-family: Roboto Mono;
     font-weight: normal;
 
@@ -98,12 +98,18 @@ a{
   text-decoration: none;
 }
 
+@media screen and (orientation: portrait){
+  .summaries{
+    font-size: 4rem;
+  }
+}
+
 .cau {
   height: 5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 139, 139, 0.3); /* Semi-transparent darkcyan */
+    background-color: #ef9f76; 
     padding: 0.5rem 0.5rem;
     margin-bottom: 2rem;
     border-radius: 1rem;
