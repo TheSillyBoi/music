@@ -26,16 +26,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Prepare deployment folder
+        run: |
+          mkdir -p deploy
+          cp -r website/* deploy/
+          cp *.wav deploy/ 2>/dev/null || true
+          cp -r "Untitled Songs" deploy/ 2>/dev/null || true
+
       - name: Setup Pages environment
         uses: actions/configure-pages@v5
 
-      - name: Upload website folder
+      - name: Upload deployment folder
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './website'  # ensure this matches your actual folder name and casing
+          path: './deploy'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          publish_branch: gh-pages  # deploy to a clean branch
+          publish_branch: gh-pages
