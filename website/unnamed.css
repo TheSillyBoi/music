@@ -1,6 +1,7 @@
 body{
-    background-color: aqua;
+    background-color: rgb(140, 170, 238);
     text-align: left;
+    color:#292c3c;
 
 }
 
@@ -73,7 +74,7 @@ details[open] audio{
     padding: 0.25rem;
     padding-top: 0.125rem;
     padding-bottom: 0.125rem;
-    text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
+    text-shadow: 0.25rem 0.25rem 0.2rem #8caaee;
     border-radius: 0.5rem;
     transition: rotate 2s;
 }
@@ -86,15 +87,15 @@ details[open] audio{
     padding: 0.25rem;
     padding-top: 0.125rem;
     padding-bottom: 0.125rem;
-    text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
+    text-shadow: 0.25rem 0.25rem 0.2rem #8caaee;
     border-radius: 0.5rem;
     transition:
       rotate 2s;
 }
 
 a{
-    color: black;
-    text-decoration: none;
+  color:#292c3c;
+  text-decoration: none;
 }
 
 .cau {

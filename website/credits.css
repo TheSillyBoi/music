@@ -1,6 +1,7 @@
 body{
-    background-color: cyan;
+    background-color: rgb(140, 170, 238);
     text-align: left;
+    color: #292c3c;
 }
 
 h1{
@@ -10,7 +11,7 @@ h1{
 }
 
 a{
-    color:black;
+color: #292c3c;
     text-decoration:underline;
 }
 
@@ -31,7 +32,7 @@ h3{
     padding-top: 0.125rem;
     padding-bottom: 0.125rem;
     text-decoration: none;
-    text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
+    text-shadow: 0.25rem 0.25rem 0.2rem #8caaee;
     border-radius: 0.5rem;
     transition: rotate 2s;
 }
@@ -42,7 +43,7 @@ h3{
     padding: 0.25rem;
     padding-top: 0.125rem;
     padding-bottom: 0.125rem;
-    text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
+    text-shadow: 0.25rem 0.25rem 0.2rem #8caaee;
     border-radius: 0.5rem;
     text-decoration: none;
     transition: rotate 2s;
