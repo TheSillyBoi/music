@@ -1,10 +1,12 @@
 body{
     background-color: cyan;
+    text-align: left;
 }
 
-h2{
+h1{
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 900;
 }
 
 a{
@@ -13,32 +15,35 @@ a{
 }
 
 .footer{
-    font-size: 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    position: fixed;
-    left: 0;
-    bottom:0;
+     font-size: 2.75rem;
+    text-align: left;
     margin: 0.125rem;
     padding: 0.25rem;
     padding-top: 0.125rem;
     padding-bottom: 0.125rem;
-    color: black;;
-    background-color: darkcyan;
+    text-decoration: none;
+    text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
     border-radius: 0.5rem;
 }
 .unnamed{
-    display: flex;
-    font-size: 1rem;
-    position: fixed;
-    border-right: 0;
-    right: 0;
-    bottom:0;
+    font-size: 2.75rem;
+    text-align: right;
     margin: 0.125rem;
     padding: 0.25rem;
     padding-top: 0.125rem;
     padding-bottom: 0.125rem;
-    background-color: darkcyan;
+    text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
     border-radius: 0.5rem;
+    text-decoration: none;
+}
 
+.cau {
+    display: flex;
+    height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 139, 139, 0.3); /* Semi-transparent darkcyan */
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 00 10px 6px rgba(0, 0, 0, 0.1);
 }

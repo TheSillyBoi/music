@@ -1,9 +1,13 @@
 body{
-    background-color: aqua;
-    background: radial-gradient(aqua, #90ffff);
+     background-color: aqua; 
+    background: linear-gradient(lightblue,DodgerBlue);
+    background-size: 100% 100%;
     text-align: left;
-    display: grid;
+    animation: gradient 1s ease infinite;
+
 }
+
+
 
 header{
     text-align: center;
@@ -64,6 +68,11 @@ details[open] audio{
   }
 }
 
+@keyframes gradient {
+  0%{background-position: 0% 50%;}  
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0%, 50%;}
+}
 .credits{
   /* display: inline-block; */
     font-size: 3rem;
@@ -98,6 +107,7 @@ a{
 
 .cau {
     display: flex;
+    height:5rem;
     justify-content: space-around;
     align-items: center;
     background-color: rgba(0, 139, 139, 0.3); /* Semi-transparent darkcyan */
