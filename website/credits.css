@@ -14,6 +14,15 @@ a{
     text-decoration:underline;
 }
 
+p{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 .footer{
      font-size: 2.75rem;
     text-align: left;
@@ -24,6 +33,7 @@ a{
     text-decoration: none;
     text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
     border-radius: 0.5rem;
+    transition: rotate 2s;
 }
 .unnamed{
     font-size: 2.75rem;
@@ -35,6 +45,7 @@ a{
     text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
     border-radius: 0.5rem;
     text-decoration: none;
+    transition: rotate 2s;
 }
 
 .cau {
@@ -46,4 +57,50 @@ a{
     padding: 0.5rem 0.5rem;
     border-radius: 1rem;
     box-shadow: 00 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+.unnamed:hover{
+    rotate: 20deg;
+}
+.footer:hover{
+    rotate: -20deg;
+
+}
+
+h4{
+    font-size: 2.5rem;
+}
+
+.credit{
+    white-space: wrap;
+    font-size: 2.5rem;
+    display:ruby;
+}
+
+.credit-name {
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    transition: transform 60s,color 0.5s;
+}
+
+.credit-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.credit-name:hover{
+        animation: rgb 1s 2 0.5s;
+
+}
+
+@keyframes rgb {
+    0%{color: red;}
+    20%{color: orange;}
+    40%{color:yellow;}
+    60%{color: green;}
+    80%{color:blue}
+    100%{color: purple;}
+    
 }

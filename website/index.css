@@ -19,7 +19,7 @@ header{
 
 .summaries{
     margin: 0.25rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: Roboto Mono;
     font-weight: normal;
 
@@ -83,6 +83,7 @@ details[open] audio{
     padding-bottom: 0.125rem;
     text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
     border-radius: 0.5rem;
+    transition: rotate 2s;
 
 }
 
@@ -98,6 +99,7 @@ details[open] audio{
     padding-bottom: 0.125rem;
     text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
     border-radius: 0.5rem;
+    transition: rotate 2s;
 
 }
 a{
@@ -115,4 +117,14 @@ a{
     margin-bottom: 2rem;
     border-radius: 1rem;
     box-shadow: 00 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+.credits:hover{
+  rotate: 20deg;
+
+}
+
+.unnamed:hover{
+  rotate: -20deg;
+
 }

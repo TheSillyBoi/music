@@ -21,12 +21,13 @@ h1{
 
 }
 p{
+  font-size: 2rem;
     text-align: center;
 }
 
 .summaries{
     margin: 0.25rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: Roboto Mono;
     font-weight: normal;
 
@@ -50,7 +51,7 @@ details{
 }
 
 details[open] audio{
-    animation: animateDown 0.5s linear forwards;
+    animation: animateDown 0.75s linear forwards;
 
 }
 
@@ -74,7 +75,7 @@ details[open] audio{
     padding-bottom: 0.125rem;
     text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
     border-radius: 0.5rem;
-
+    transition: rotate 2s;
 }
 
 .index {
@@ -87,6 +88,8 @@ details[open] audio{
     padding-bottom: 0.125rem;
     text-shadow: 0.25rem 0.25rem 0.2rem darkcyan;
     border-radius: 0.5rem;
+    transition:
+      rotate 2s;
 }
 
 a{
@@ -104,4 +107,14 @@ a{
     margin-bottom: 2rem;
     border-radius: 1rem;
     box-shadow: 00 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+.index:hover {
+  rotate: 20deg;
+
+}
+
+.Credits:hover {
+  rotate: -20deg;
+
 }
