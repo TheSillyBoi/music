@@ -16,8 +16,9 @@ h1{
     font-family: playfair-display;
     font-size: 3rem;
     font-weight: 900;
-
-
+    background-color: #e78284;
+    border-radius: 1rem;
+    padding: 0rem 1rem;
 }
 p{
   font-size: 2rem;
