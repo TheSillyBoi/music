@@ -6,9 +6,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=play_circle" />
+  <!-- <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=play_circle" /> -->
   <link rel="stylesheet" type="text/css" href="index.css" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
   <title>Music</title>
 </head>
 
@@ -25,227 +26,228 @@
   <p>There are more unnamed songs in the link above:</p>
   <br><br>
 
+<div class="untitled-section">
+  <button onclick="toggleAudio('hall_window')" id="button-hall_window">
+    <span class="material-symbols-outlined summaries md-36" id="icon-hall_window">play_circle</span>
+  </button>
+  <h5 class="summaries">Hall Window</h5>
+</div>
 
+<div class="untitled-section">
+  <button onclick="toggleAudio('menu_music')" id="button-menu_music">
+    <span class="material-symbols-outlined summaries md-36" id="icon-menu_music">play_circle</span>
+  </button>
+  <h5 class="summaries">Menu Music Type Thing</h5>
+</div>
 
+<div class="untitled-section">
+  <button onclick="toggleAudio('port_of_air')" id="button-port_of_air">
+    <span class="material-symbols-outlined summaries md-36" id="icon-port_of_air">play_circle</span>
+  </button>
+  <h5 class="summaries">Port Of Air</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Hall Window
-    </summary>
-    <audio controls>
-      <source src="hall_window.wav" type="audio/wav">
-      <p>Hello</p>
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('solitude')" id="button-solitude">
+    <span class="material-symbols-outlined summaries md-36" id="icon-solitude">play_circle</span>
+  </button>
+  <h5 class="summaries">Solitude</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Menu Music Type Thing
-    </summary>
-    <audio controls>
-      <source src="menu_music_type_thing.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('sunset_fires')" id="button-sunset_fires">
+    <span class="material-symbols-outlined summaries md-36" id="icon-sunset_fires">play_circle</span>
+  </button>
+  <h5 class="summaries">Sunset Fires</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Port Of Air
-    </summary>
-    <audio controls>
-      <source src="port_of_air.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('the_child')" id="button-the_child">
+    <span class="material-symbols-outlined summaries md-36" id="icon-the_child">play_circle</span>
+  </button>
+  <h5 class="summaries">The Child</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Solitude
-    </summary>
-    <audio controls>
-      <source src="solitude.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('quiet_times')" id="button-quiet_times">
+    <span class="material-symbols-outlined summaries md-36" id="icon-quiet_times">play_circle</span>
+  </button>
+  <h5 class="summaries">The Quiet Times</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Sunset Fires
-    </summary>
-    <audio controls>
-      <source src="sunset_fires.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('voices_choir')" id="button-voices_choir">
+    <span class="material-symbols-outlined summaries md-36" id="icon-voices_choir">play_circle</span>
+  </button>
+  <h5 class="summaries">Voices Of The Choir</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      The Child
-    </summary>
-    <audio controls>
-      <source src="the_child.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('why_not')" id="button-why_not">
+    <span class="material-symbols-outlined summaries md-36" id="icon-why_not">play_circle</span>
+  </button>
+  <h5 class="summaries">Why Not</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      The Quiet Times
-    </summary>
-    <audio controls>
-      <source src="the_quiet_times.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('ai_chord')" id="button-ai_chord">
+    <span class="material-symbols-outlined summaries md-36" id="icon-ai_chord">play_circle</span>
+  </button>
+  <h5 class="summaries">AI Chord Extraction</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Voices Of The Choir
-    </summary>
-    <audio controls>
-      <source src="voices_of_the_choir.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('chiptune')" id="button-chiptune">
+    <span class="material-symbols-outlined summaries md-36" id="icon-chiptune">play_circle</span>
+  </button>
+  <h5 class="summaries">ChipTune</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Why Not
-    </summary>
-    <audio controls>
-      <source src="why_not.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('clickpop')" id="button-clickpop">
+    <span class="material-symbols-outlined summaries md-36" id="icon-clickpop">play_circle</span>
+  </button>
+  <h5 class="summaries">Clickpop</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      AI Chord Extraction
-    </summary>
-    <audio controls>
-      <source src="Ai chord extraction.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('forgotten_souls')" id="button-forgotten_souls">
+    <span class="material-symbols-outlined summaries md-36" id="icon-forgotten_souls">play_circle</span>
+  </button>
+  <h5 class="summaries">Forgotten Souls</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      ChipTune
-    </summary>
-    <audio controls>
-      <source src="Chiptune.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('funky')" id="button-funky">
+    <span class="material-symbols-outlined summaries md-36" id="icon-funky">play_circle</span>
+  </button>
+  <h5 class="summaries">Funky</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Clickpop
-    </summary>
-    <audio controls>
-      <source src="clickpop.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('it_arrives')" id="button-it_arrives">
+    <span class="material-symbols-outlined summaries md-36" id="icon-it_arrives">play_circle</span>
+  </button>
+  <h5 class="summaries">It Arrives(V2)</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Forgotten Souls
-    </summary>
-    <audio controls>
-      <source src="Forgotten souls.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('machine')" id="button-machine">
+    <span class="material-symbols-outlined summaries md-36" id="icon-machine">play_circle</span>
+  </button>
+  <h5 class="summaries">Machine</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Funky
-    </summary>
-    <audio controls>
-      <source src="Funky.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('pipes')" id="button-pipes">
+    <span class="material-symbols-outlined summaries md-36" id="icon-pipes">play_circle</span>
+  </button>
+  <h5 class="summaries">Pipes</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      It Arrives(V2)
-    </summary>
-    <audio controls>
-      <source src="It arrives v2.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('power_lines')" id="button-power_lines">
+    <span class="material-symbols-outlined summaries md-36" id="icon-power_lines">play_circle</span>
+  </button>
+  <h5 class="summaries">Power Lines</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Machine
-    </summary>
-    <audio controls>
-      <source src="Machine.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('sandstorm')" id="button-sandstorm">
+    <span class="material-symbols-outlined summaries md-36" id="icon-sandstorm">play_circle</span>
+  </button>
+  <h5 class="summaries">SandStorm</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Pipes
-    </summary>
-    <audio controls>
-      <source src="Pipes.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('space_port')" id="button-space_port">
+    <span class="material-symbols-outlined summaries md-36" id="icon-space_port">play_circle</span>
+  </button>
+  <h5 class="summaries">Space Port</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Power Lines
-    </summary>
-    <audio controls>
-      <source src="power lines.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('steak')" id="button-steak">
+    <span class="material-symbols-outlined summaries md-36" id="icon-steak">play_circle</span>
+  </button>
+  <h5 class="summaries">The Steak Is Here</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      SandStorm
-    </summary>
-    <audio controls>
-      <source src="sandstorm.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<div class="untitled-section">
+  <button onclick="toggleAudio('the_winds')" id="button-the_winds">
+    <span class="material-symbols-outlined summaries md-36" id="icon-the_winds">play_circle</span>
+  </button>
+  <h5 class="summaries">The Winds</h5>
+</div>
 
-  <details name="music">
-    <summary class="summaries">
-      Space Port
-    </summary>
-    <audio controls>
-      <source src="space port (loop).wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+<script> 
+  let audioFiles = {};
+  let currentPlaying = null;
 
-  <details name="music">
-    <summary class="summaries">
-      The Steak Is Here
-    </summary>
-    <audio controls>
-      <source src="The steak is here.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-  </details>
+  const songPaths = {
+    'untitled': '../hall_window.wav',
+    'hall_window': '../hall_window.wav',
+    'menu_music': '../menu_music_type_thing.wav',
+    'port_of_air': '../port_of_air.wav',
+    'solitude': '../solitude.wav',
+    'sunset_fires': '../sunset_fires.wav',
+    'the_child': '../the_child.wav',
+    'quiet_times': '../the_quiet_times.wav',
+    'voices_choir': '../voices_of_the_choir.wav',
+    'why_not': '../why_not.wav',
+    'ai_chord': '../Ai chord extraction.wav',
+    'chiptune': '../Chiptune.wav',
+    'clickpop': '../clickpop.wav',
+    'forgotten_souls': '../Forgotten souls.wav',
+    'funky': '../Funky.wav',
+    'it_arrives': '../It arrives v2.wav',
+    'machine': '../Machine.wav',
+    'pipes': '../Pipes.wav',
+    'power_lines': '../power lines.wav',
+    'sandstorm': '../sandstorm.wav',
+    'space_port': '../space port (loop).wav',
+    'steak': '../The steak is here.wav',
+    'the_winds': '../the winds.wav'
+  };
+
+  function toggleAudio(songId) {
+    const icon = document.getElementById('icon-' + songId);
+    
+    // Stop currently playing audio if different song
+    if (currentPlaying && currentPlaying !== songId) {
+      pauseAudio(currentPlaying);
+    }
+    
+    // Create audio object if it doesn't exist
+    if (!audioFiles[songId]) {
+      audioFiles[songId] = new Audio(songPaths[songId]);
+      audioFiles[songId].addEventListener('ended', function() {
+        icon.textContent = 'play_circle';
+        currentPlaying = null;
+      });
+    }
+    
+    const audio = audioFiles[songId];
+    
+    if (audio.paused) {
+      audio.play();
+      icon.textContent = 'pause_circle';
+      currentPlaying = songId;
+    } else {
+      audio.pause();
+      icon.textContent = 'play_circle';
+      currentPlaying = null;
+    }
+  }
+  
+  function pauseAudio(songId) {
+    const audio = audioFiles[songId];
+    const icon = document.getElementById('icon-' + songId);
+    if (audio && !audio.paused) {
+      audio.pause();
+      icon.textContent = 'play_circle';
+    }
+  }
+</script>
 </body>
-
-<details name="music">
-  <summary class="summaries">
-    The Winds
-  </summary>
-  <audio controls>
-    <source src="the winds.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
-</details>
+</html>

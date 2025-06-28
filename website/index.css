@@ -13,11 +13,29 @@ body{
 header{
     text-align: center;
     font-family: playfair-display;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
+        background-color: #e78284;
+    border-radius: 1rem;
+    padding: 0rem 1rem;
 
 }
+@media screen and (orientation: portrait){
+  .summaries{
+    font-size: 4rem;
+  }
+  .material-symbols-outlined.md-36 {
+    font-size: 4rem !important;
+    color: #292c3c;
+}
+}
+@media screen and (orientation: landscape){
 
+  .material-symbols-outlined.md-36 {
+    font-size: 2rem !important;
+    color: #292c3c;
+}
+}
 .summaries{
     margin: 0.25rem;
     font-size: 2rem;
@@ -76,7 +94,7 @@ details[open] audio{
 }
 .credits{
   /* display: inline-block; */
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
     margin: 0.125rem;
     padding: 0.25rem;
@@ -97,7 +115,7 @@ details[open] audio{
 .unnamed{
   /* display: inline-block; */
     /* float:inline-end; */
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: right;
     width: fit-content;
     margin: 0.125rem;
@@ -134,4 +152,23 @@ a{
 .unnamed:hover{
   rotate: -20deg;
 
+}
+
+
+.untitled-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.untitled-section button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.untitled-section h5 {
+    margin: 0;
 }
