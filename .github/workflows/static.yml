@@ -31,7 +31,7 @@ jobs:
           mkdir -p deploy
           cp -r website/* deploy/
           cp *.wav deploy/ 2>/dev/null || true
-          cp -r "Untitled Songs" deploy/ 2>/dev/null || true
+          cp -r "Untitled_Songs" deploy/ 2>/dev/null || true
 
       - name: Setup Pages environment
         uses: actions/configure-pages@v5
