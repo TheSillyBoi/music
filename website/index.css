@@ -155,20 +155,20 @@ a{
 }
 
 
-.untitled-section {
+.main-section {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
 
-.untitled-section button {
+.main-section button {
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
 }
 
-.untitled-section h5 {
+.main-section h5 {
     margin: 0;
 }
